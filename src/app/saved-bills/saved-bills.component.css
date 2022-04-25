@@ -1,0 +1,10 @@
+.grid-container {
+    margin: 20px;
+  }
+  .table{
+    margin-top: 20px;
+  } 
+  .plus-arrow {
+    width : 5px;
+    height: 5px;
+}

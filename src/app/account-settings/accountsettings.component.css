@@ -1,0 +1,13 @@
+.grid-container {
+    margin: 20px;
+  }
+  .table{
+    margin-top: 50px;
+  } 
+  .button{
+    float:left;
+    margin:2px;
+  }
+.form-control{
+width:220px;
+  }
