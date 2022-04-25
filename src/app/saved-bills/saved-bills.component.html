@@ -1,9 +1,12 @@
-<div class="grid-container">
-    <h1 class="mat-h1">Saved Bills  
-      <button mat-icon-button color="primary"  matTooltip="To pay the due amount, click on the inquire button to see the actual bill price and select the check box to see the total amount of selected bill(s)"   >
-      <mat-icon>info</mat-icon> 
-    </button></h1>
-  
+<div class="subHeader">
+  <h1 class="mat-h1">Saved Bills  
+    <button mat-icon-button color="primary"  matTooltip="To pay the due amount, click on the inquire button to see the actual bill price and select the check box to see the total amount of selected bill(s)"   >
+    <mat-icon>info</mat-icon> 
+  </button></h1>
+</div>
+
+
+<div class="grid-container">  
     <div style="color: #28a745 ;">   
       <mat-icon>add_circle</mat-icon>
       <a [routerLink]="'/paynewBills'" >Add New Bill</a> 

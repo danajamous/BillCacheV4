@@ -11,3 +11,13 @@
 .form-control{
 width:220px;
   }
+
+.subHeader{
+  width: 100%;
+  height: 55px;
+  background-color: #f0f0f0;
+  }
+  
+.mat-h1{
+    padding: 10px 20px;
+  }
