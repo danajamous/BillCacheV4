@@ -35,7 +35,7 @@ ngOnInit() {
 
 
   deleteRow(element: any) {
-    if(confirm("Are you sure you want to delete  bill "+ element.billingNumber)) {
+    if(confirm("Are you sure? Do you want to delete this bill "+ element.billingNumber+ "? This process cannot be undone.")) {
     
     for (let i = 0; i < this.data.length; ++i) {
       if (this.data[i].id === element.id) {

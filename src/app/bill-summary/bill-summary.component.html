@@ -23,11 +23,16 @@
     <label style ="font-weight: bold;margin-top:40px">Total amount to pay</label> 30.8$
     <div style="margin-top:20px">
         <table><tr>
-      <td><button [routerLink]="'/paymentConfirmation'" type="button" class="btn btn-success">Pay</button>
-      </td>  
-      <td><button [routerLink]="'/paynewBills'" type="button" class="btn btn-success">Cancel</button>
+      
+     
+        <td ><button (click)="saveBill()" type="button" [disabled]="isSaveBillButtonDisabled" class="btn btn-success">Save Bill</button>
         </td>
-        <td><button (click)="saveBill()" type="button" [disabled]="isSaveBillButtonDisabled" class="btn btn-success">Save Bill</button>
+
+        <td style="padding: 40px;"><button [routerLink]="'/paymentConfirmation'" type="button" class="btn btn-success">Pay Bill</button>
+        </td> 
+<td style="padding: 60px;">&nbsp;</td>
+        <td><button [routerLink]="'/paynewBills'" type="button" mat-raised-button color="warn">Cancel</button>
         </td>
+
     </tr></table>
     </div>
