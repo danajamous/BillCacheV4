@@ -13,10 +13,6 @@ width:220px;
 
   }
 
-  .form-control::placeholder { 
-    color:#495057;
-    opacity: 1; 
-  }
 
 .subHeader{
   width: 100%;
