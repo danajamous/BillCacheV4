@@ -10,6 +10,12 @@
   }
 .form-control{
 width:220px;
+
+  }
+
+  .form-control::placeholder { 
+    color:#495057;
+    opacity: 1; 
   }
 
 .subHeader{
@@ -21,3 +27,5 @@ width:220px;
 .mat-h1{
     padding: 10px 20px;
   }
+
+  
