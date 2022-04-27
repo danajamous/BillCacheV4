@@ -39,7 +39,10 @@
           <label style="margin-bottom: 0!important" id="{{'amountToPay' + d.id}}"></label>
         </td>
         <td class="d-flex justify-content-center">
-          <button mat-button (click)="inquire(d)">Inquire</button>
+          <button mat-button (click)="inquire(d)">
+            <mat-icon>search</mat-icon>
+            Inquire
+        </button>
           <button mat-icon-button (click)="deleteRow(d)" id="remove">
             <mat-icon mat-button style="color:rgb(160, 0, 0)">delete</mat-icon>
           </button>
